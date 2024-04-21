@@ -48,6 +48,6 @@ int main()
         exit(-1);
     }
     ioctl_msg_delete(fd);
-    //ioctl_set_msg(fd, msg);
+    ioctl_set_msg(fd, msg);
     close(fd);
 }

@@ -6,7 +6,7 @@
 
 #include "funs.h"
 #include "defines.h"
-
+MODULE_LICENSE("none");
 char message[BUF_LEN];
 int direction = 1;
 char* left_pos;
